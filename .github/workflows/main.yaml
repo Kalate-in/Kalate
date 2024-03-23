@@ -1,4 +1,4 @@
-name: testing
+name: Go2
 
 on:
   workflow_dispatch:
